@@ -5,9 +5,10 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin: 0;
+   
     padding: 0;
     list-style: none;
+    background-color: var(--main-background-color);
   }
   
   .social-icons li {
