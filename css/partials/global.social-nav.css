@@ -1,35 +1,35 @@
 .social-icons {
-    max-width: 1200px;
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-   
-    padding: 0;
-    list-style: none;
-    background-color: var(--main-background-color);
-  }
-  
-  .social-icons li {
-    margin: 0 10px;
-  }
-  
-  .social-icons a {
-    display: inline-block;
-    padding: 10px;
-    border-radius: 50%;
-    transition: background-color 0.3s;
-  }
-  
-  .social-icons a:hover {
-    background-color: var(--second-background-color); /* Колір фону при наведенні */
-    
-  }
-  
-  .social-icons .fab {
-    text-decoration: none; 
-    font-size: 30px; /* Розмір іконок */
-    color: var(--header-link-hover-color); /* Колір іконок */
-  }
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 
+  padding: 0;
+  list-style: none;
+  background-color: var(--main-background-color);
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: var(
+    --second-background-color
+  ); /* Колір фону при наведенні */
+}
+
+.social-icons .fab {
+  text-decoration: none;
+  font-size: 30px; /* Розмір іконок */
+  color: var(--header-link-hover-color); /* Колір іконок */
+}
