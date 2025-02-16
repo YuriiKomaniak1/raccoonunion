@@ -1,0 +1,43 @@
+.hero-about-us {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 550px;
+    width: 100%;
+    background-image: url("../../img/header/about-us-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ddd; /* Бекапний колір, якщо зображення не завантажилось */
+    display: block;
+  }
+  
+  .hero-about-us__box {
+    margin-left: 30px;
+  }
+  
+  .hero-about-us__subtitle {
+    padding-top: 50px;
+  }
+  
+  .hero-about-us__content {
+      padding-top: 150px;
+  }
+  
+  .hero-about-us__title {
+    font-size: 2.2rem;
+      color: var(--second-background-color);
+      max-width: 50%;
+    
+  }
+  
+  .hero-about-us__text {
+      max-width: 50%;
+      padding-top: 30px;
+  
+  }
+  
+  @media (max-width: 700px) {
+      .hero-about-us {
+          background-image: url("../../img/header/about-us-hero-transparent.jpg");
+      }
+  }

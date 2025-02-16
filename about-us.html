@@ -13,6 +13,22 @@
     <link rel="stylesheet" href="css/about-us.css" />
   </head>
   <body>
-    <header></header>
+    <header class="header header--about-us">
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/global.social-nav.partial.html"
+      ></nav>
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/global.header-nav.partial.html"
+      ></nav>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/about-us.hero.partial.html"
+      ></section>
+    </header>
   </body>
 </html>
