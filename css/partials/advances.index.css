@@ -1,0 +1,42 @@
+.advances {
+  background-color: var(--main-background-color);
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.advances__title {
+  padding-top:20px;
+    text-align: center;
+}
+
+.advances__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.advances__item {
+    display: flex;
+    align-items: center; /* Вирівнює по центру */
+    gap: 20px; /* Відступ між картинкою і текстом */
+  }
+  
+  .advances__icon {
+    flex-shrink: 0; /* Щоб картинка не зменшувалася */
+    width: 150px; /* Задайте потрібну ширину */
+  }
+  
+  .advances__icon img {
+    width: 100%; /* Робить картинку адаптивною */
+    height: auto;
+  }
+  
+  .advances__textbox {
+    flex-grow: 1; /* Займає весь доступний простір */
+  }
+
+  @media (max-width: 600px) {
+    .advances__item {
+    flex-direction: column;
+    }
+  }
