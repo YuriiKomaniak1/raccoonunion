@@ -1,0 +1,57 @@
+.callbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  background-color: var(--second-background-color);
+  min-height: 60px;
+  padding: 10px 20px;
+}
+
+.callbar__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.callbar__text {
+  font-size: 18px;
+  color: var(--main-background-color);
+}
+.callbar__contact-link {
+  display: inline-block;
+  text-align: left;
+  background-color: var(--button-color);
+
+  color: var(--main-background-color);
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 25px;
+
+  transition: background 0.3s;
+  box-shadow: 0 0 10px 0 rgba(00, 00, 00, 0.8);
+}
+
+.callbar__contact-link:hover {
+  background-color: var(--header-link-color);
+  color: var(--button-color);
+}
+
+@media (max-width: 600px) {
+  .callbar__text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+    .callbar__content  {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
