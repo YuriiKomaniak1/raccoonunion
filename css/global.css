@@ -17,6 +17,7 @@
   --header-link-hover-color: black;
   --main-background-color: white;
   --button-color:orange;
+  --text-color:#666;
 
   font-family: "Titillium Web", sans-serif;
 }
@@ -32,4 +33,9 @@ a {
 
 h1,h2,h3 {
   color:var(--second-background-color)
+}
+
+p {
+ 
+  color: var(--text-color)
 }

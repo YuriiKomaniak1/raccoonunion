@@ -1,0 +1,45 @@
+/* Контейнер для всієї історії */
+.timeline {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--main-background-color);
+}
+.timeline__header {
+  padding-top: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Стиль для кожного елементу історії */
+.timeline__item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.timeline__img {
+  width: 100%;
+}
+
+.timeline__image {
+  flex: 0 0 20%; /* 20% ширини */
+  margin-right: 20px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Стиль для текстового блоку */
+.timeline__text {
+  flex: 1;
+  background-color: var(--background-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 500px) {
+    .timeline__item {
+        flex-direction: column;
+      }
+  }
