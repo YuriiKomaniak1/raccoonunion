@@ -41,3 +41,19 @@ p {
  
   color: var(--text-color)
 }
+
+.link {
+  color: var(--second-background-color);
+}
+
+.link:visited {
+  color: var(--second-background-color);
+}
+
+.link:hover {
+  color: var(--button-color);
+}
+
+.link:active {
+  color: var(--second-background-color);
+}
