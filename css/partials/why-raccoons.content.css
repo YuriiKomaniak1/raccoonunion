@@ -1,0 +1,33 @@
+.content__container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: flex-start;
+    margin: 0 auto;
+    background-color: var(--main-background-color);
+}
+.content__image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+.content__image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.content__text {
+    flex: 2;
+    min-width: 300px;
+    padding: 20px;
+}
+.content__text p {
+    text-align: justify;
+}
+.content__text-below {
+    max-width: 1200px;
+    text-align: justify;
+    margin: 0px auto;
+    background-color: var(--main-background-color);
+    padding: 20px;
+}
