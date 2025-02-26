@@ -14,3 +14,4 @@ else if (time >= 6 && time <= 7) {
 } else if (time >= 17 && time <= 23) {
   ClockContainer.innerText = `Доброго вечора! Зараз ${hour}, якраз час вибрати собі єнота помічника на завтра. Телефонуйте`;
 }
+

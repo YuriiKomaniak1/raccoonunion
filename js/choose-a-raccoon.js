@@ -1,6 +1,7 @@
 function init() {
   import("./global-hero.js");
   import("./global-clock.js");
+  import("./raccoon-list.js");
 }
 
 const totalPartials = document.querySelectorAll(
