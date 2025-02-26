@@ -46,8 +46,8 @@ const raccoons = [
     },
     {
       id: 6,
-      title: "Бригада щахраїв",
-      profession: "різна",
+      title: "Бригада шахраїв",
+      profession: " ",
       class: "brigade",
       image: "img/raccoons/Frouder brigade.jpg",
       description: "Виконає будь яке замовлення.",
