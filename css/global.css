@@ -18,8 +18,8 @@
   --header-link-hover-color: rgb(82, 80, 80);
   --footer-link-hover-color: rgb(82, 80, 80);
   --main-background-color: white;
-  --button-color:orange;
-  --text-color:#666;
+  --button-color: orange;
+  --text-color: #666;
 
   font-family: "Titillium Web", sans-serif;
 }
@@ -33,13 +33,14 @@ a {
   font-family: "Titillium Web", sans-serif;
 }
 
-h1,h2,h3 {
-  color:var(--second-background-color)
+h1,
+h2,
+h3 {
+  color: var(--second-background-color);
 }
 
 p {
- 
-  color: var(--text-color)
+  color: var(--text-color);
 }
 
 .link {

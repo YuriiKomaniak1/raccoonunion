@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Де  знайти єнота</title>
+    <title>Де знайти єнота</title>
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
@@ -30,18 +30,17 @@
         data-hx-get="partials/contacts.hero.partial.html"
       ></section>
       <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="partials/global.callbar.partial.html"
-    ></section>
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/global.callbar.partial.html"
+      ></section>
     </header>
 
     <section
-    data-hx-trigger="load"
-    data-hx-swap="outerHTML"
-    data-hx-get="partials/contacts.contact-form.partial.html"
-  ></section>
-
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="partials/contacts.contact-form.partial.html"
+    ></section>
 
     <footer>
       <nav
@@ -50,5 +49,6 @@
         data-hx-get="partials/global.footer.partial.html"
       ></nav>
     </footer>
+    <script src="js/contacts.js"></script>
   </body>
 </html>
