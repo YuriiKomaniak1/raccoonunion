@@ -2,6 +2,7 @@ function init() {
   import("./global-hero.js");
   import("./global-clock.js");
   import("./raccoon-list.js");
+  import("./global.header-burger.js");
 }
 
 const totalPartials = document.querySelectorAll(

@@ -20,6 +20,13 @@
   --main-background-color: white;
   --button-color: orange;
   --text-color: #666;
+  --transition-speed:0.3s;
+  --header-height:130px;
+  --spacing-md: 1.5rem;
+  --spacing-sm: 1rem;
+  --mobile-header-height: 90px;
+  --social-icons-height: 60px;
+  
 
   font-family: "Titillium Web", sans-serif;
 }

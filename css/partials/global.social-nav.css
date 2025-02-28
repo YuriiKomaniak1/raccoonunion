@@ -8,6 +8,7 @@
   padding: 0;
   list-style: none;
   background-color: var(--main-background-color);
+  height: var(--social-icons-height);
 }
 
 .social-icons li {
