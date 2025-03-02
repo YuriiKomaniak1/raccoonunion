@@ -40,3 +40,9 @@
     object-fit: cover;
     
 }
+.buy-button {
+  padding: 6px;
+  margin: 6px;
+  background-color:var(--second-background-color) ;
+  border-radius: 10px;
+}

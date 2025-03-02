@@ -1,0 +1,318 @@
+[
+  
+    {
+      "id": 1,
+      "title": "Алі",
+      "profession": "різноробочий",
+      "class": "worker",
+      "image": "img/raccoons/Ali worker.jpg",
+      "description": "Алі - різноробочий, який завжди готовий допомогти.",
+      "price": "1"
+    },
+    {
+      "id": 2,
+      "title": "Аліна",
+      "profession": "домогосподарка",
+      "class": "household",
+      "image": "img/raccoons/Alina housewife.jpg",
+      "description": "Аліна - турботлива домогосподарка, яка створює затишок в домі.",
+      "price": "1"
+    },
+    {
+      "id": 3,
+      "title": "Анатолій",
+      "profession": "музикант",
+      "class": "services",
+      "image": "img/raccoons/Anatoliy musician.jpg",
+      "description": "Анатолій - талановитий музикант, чия музика надихає.",
+      "price": "2"
+    },
+    {
+      "id": 4,
+      "title": "Боб",
+      "profession": "вчитель",
+      "class": "services",
+      "image": "img/raccoons/Bob teacher.jpg",
+      "description": "Боб - досвідчений вчитель, який любить ділитися знаннями.",
+      "price": "4"
+    },
+    {
+      "id": 5,
+      "title": "Касім",
+      "profession": "будівельник",
+      "class": "worker",
+      "image": "img/raccoons/Cassim builder.jpg",
+      "description": "Касім - вмілий будівельник, який будує міцні споруди.",
+      "price": "3"
+    },
+    {
+      "id": 6,
+      "title": "Кухарі",
+      "profession": "бригада кухарів",
+      "class": "household",
+      "image": "img/raccoons/Cooker brigade.jpg",
+      "description": "Бригада кухарів - команда професіоналів, які готують смачні страви.",
+      "price": "7"
+    },
+    {
+      "id": 7,
+      "title": "Кертіс",
+      "profession": "services",
+      "class": "programmer",
+      "image": "img/raccoons/Curtis programmer.jpg",
+      "description": "Кертіс - талановитий програміст, який пише ефективний код.",
+      "price": "5"
+    },
+    {
+      "id": 8,
+      "title": "Землекопи",
+      "profession": "бригада землекопів",
+      "class": "worker",
+      "image": "img/raccoons/Digger brigade.jpg",
+      "description": "Бригада землекопів - команда, яка виконує земляні роботи.",
+      "price": "6"
+    },
+    {
+      "id": 9,
+      "title": "Еміль",
+      "profession": "перукар",
+      "class": "services",
+      "image": "img/raccoons/Emil frisor.jpg",
+      "description": "Еміль - стильний перукар, який створює чудові зачіски.",
+      "price": "3"
+    },
+    {
+      "id": 10,
+      "title": "Франц",
+      "profession": "водій",
+      "class": "services",
+      "image": "img/raccoons/Franz driver.jpg",
+      "description": "Франц - досвідчений водій, який безпечно доставляє вантажі.",
+      "price": "3"
+    },
+    {
+      "id": 11,
+      "title": "вантажники",
+      "profession": "бригада вантажників",
+      "class": "worker",
+      "image": "img/raccoons/Frouder brigade.jpg",
+      "description": "Команда, яка швидко та ефективно переміщує вантажі.",
+      "price": "7"
+    },
+    {
+      "id": 12,
+      "title": "Генріх",
+      "profession": "професор",
+      "class": "services",
+      "image": "img/raccoons/Heinrich professor.jpg",
+      "description": "Шанований професор, який ділиться своїми знаннями зі студентами.",
+      "price": "5"
+    },
+    {
+      "id": 13,
+      "title": "Янек",
+      "profession": "музикант",
+      "class": "services",
+      "image": "img/raccoons/Janek musician.jpg",
+      "description": "Янек - талановитий музикант, який грає на різних інструментах.",
+      "price": "3"
+    },
+    {
+      "id": 14,
+      "title": "Джессіка",
+      "profession": "вчитель",
+      "class": "services",
+      "image": "img/raccoons/Jessica teacher.jpg",
+      "description": "Джессіка - енергійна вчителька, яка любить працювати з дітьми.",
+      "price": "4"
+    },
+    {
+      "id": 15,
+      "title": "Каріна",
+      "profession": "художник",
+      "class": "services",
+      "image": "img/raccoons/Karina painter.jpg",
+      "description": "Каріна - талановита художниця, яка створює красиві картини.",
+      "price": "4"
+    },
+    {
+      "id": 16,
+      "title": "Клаус",
+      "profession": "лаборант",
+      "class": "worker",
+      "image": "img/raccoons/Klaus laboratory assistant.jpg",
+      "description": "Клаус - уважний лаборант, який проводить точні дослідження.",
+      "price": "3"
+    },
+    {
+      "id": 17,
+      "title": "Лаура",
+      "profession": "лікар",
+      "class": "services",
+      "image": "img/raccoons/Laura doctor.jpg",
+      "description": "Лаура - досвідчений лікар, яка піклується про здоров'я пацієнтів.",
+      "price": "6"
+    },
+    {
+      "id": 18,
+      "title": "Лешек",
+      "profession": "копірайтер",
+      "class": "services",
+      "image": "img/raccoons/Leshek copywriter.jpg",
+      "description": "Лешек - креативний копірайтер, який пише захоплюючі тексти.",
+      "price": "3"
+    },
+    {
+      "id": 19,
+      "title": "Марія",
+      "profession": "домогосподарка",
+      "class": "household",
+      "image": "img/raccoons/Maria housewife.jpg",
+      "description": "Марія - дбайлива домогосподарка, яка створює затишок в домі.",
+      "price": "2"
+    },
+    {
+      "id": 20,
+      "title": "Мігель",
+      "profession": "садівник",
+      "class": "household",
+      "image": "img/raccoons/Miguel gardener.jpg",
+      "description": "Мігель - досвідчений садівник, який доглядає за рослинами.",
+      "price": "2"
+    },
+    {
+      "id": 21,
+      "title": "Мілана",
+      "profession": "секретар",
+      "class": "worker",
+      "image": "img/raccoons/Milana secretary.jpg",
+      "description": "Мілана - організований секретар, який допомагає в офісній роботі.",
+      "price": "3"
+    },
+    {
+      "id": 22,
+      "title": "Микола",
+      "profession": "охоронець",
+      "class": "services",
+      "image": "img/raccoons/Mykola security guard.jpg",
+      "description": "Микола - пильний охоронець, який забезпечує безпеку.",
+      "price": "4"
+    },
+    {
+      "id": 23,
+      "title": "Ніколас",
+      "profession": "садівник",
+      "class": "household",
+      "image": "img/raccoons/Nicolas gardener.jpg",
+      "description": "Ніколас - досвідчений садівник, який створює красиві сади.",
+      "price": "3"
+    },
+    {
+      "id": 24,
+      "title": "Оксана",
+      "profession": "репортер",
+      "class": "services",
+      "image": "img/raccoons/Oksana reporter.jpg",
+      "description": "Оксана - смілива репортерка, яка висвітлює важливі події.",
+      "price": "5"
+    },
+    {
+      "id": 25,
+      "title": "Олаф",
+      "profession": "охоронець",
+      "class": "worker",
+      "image": "img/raccoons/Olaf security guard.jpg",
+      "description": "Олаф - надійний охоронець, який завжди напоготові.",
+      "price": "4"
+    },
+    {
+      "id": 26,
+      "title": "Олег",
+      "profession": "гід",
+      "class": "services",
+      "image": "img/raccoons/Oleg guide.jpg",
+      "description": "Олег - ерудований гід, який проводить цікаві екскурсії.",
+      "price": "2"
+    },
+    {
+      "id": 27,
+      "title": "Паоло",
+      "profession": "будівельник",
+      "class": "worker",
+      "image": "img/raccoons/Paolo builder.jpg",
+      "description": "Паоло - вмілий будівельник, який будує міцні споруди.",
+      "price": "4"
+    },
+    {
+      "id": 28,
+      "title": "Педро",
+      "profession": "вчитель",
+      "class": "services",
+      "image": "img/raccoons/Pedro teacher.jpg",
+      "description": "Педро - досвідчений вчитель, який любить ділитися знаннями.",
+      "price": "7"
+    },
+    {
+      "id": 29,
+      "title": "Залізничники",
+      "profession": "залізничники",
+      "class": "worker",
+      "image": "img/raccoons/railroad-workers brigade.jpg",
+      "description": "Бригада залізничників - команда, яка забезпечує роботу залізниці.",
+      "price": "8"
+    },
+    {
+      "id": 30,
+      "title": "Ракель",
+      "profession": "лікар",
+      "class": "services",
+      "image": "img/raccoons/Rakel  doctor.jpg",
+      "description": "Ракель - кваліфікований лікар, яка надає медичну допомогу.",
+      "price": "8"
+    },
+    {
+      "id": 31,
+      "title": "Рікі",
+      "profession": "робітник",
+      "class": "worker",
+      "image": "img/raccoons/Riki worker.jpg",
+      "description": "Рікі - працьовитий робітник, який виконує різноманітні завдання.",
+      "price": "2"
+    },
+    {
+      "id": 32,
+      "title": "Сабріна",
+      "profession": "професор",
+      "class": "services",
+      "image": "img/raccoons/Sabrina professor.jpg",
+      "description": "Шанована професорка, доктор природничих наук.",
+      "price": "4"
+    },
+    {
+      "id": 33,
+      "title": "Іванка",
+      "profession": "бариста",
+      "class": "services",
+      "image": "img/raccoons/Ivanka barista.jpg",
+      "description": "Сара - талановита бариста, яка готує смачну каву.",
+      "price": "2"
+    },
+    {
+      "id": 34,
+      "title": "Сара",
+      "profession": "лікар",
+      "class": "services",
+      "image": "img/raccoons/Sara doctor.jpg",
+      "description": "Сара - досвідчений лікар, яка піклується про здоров'я пацієнтів.",
+      "price": "5"
+    },
+    {
+      "id": 35,
+      "title": "Тобі",
+      "profession": "секретар",
+      "class": "worker",
+      "image": "img/raccoons/Tobi secretary.jpg",
+      "description": "Тобі - організований секретар, який допомагає в офісній роботі.",
+      "price": "2"
+    }
+  ]
