@@ -3,6 +3,7 @@ function init() {
   import("./global-clock.js");
   import("./raccoon-list.js");
   import("./global.header-burger.js");
+  import("./cart-counter.js");
 }
 
 const totalPartials = document.querySelectorAll(

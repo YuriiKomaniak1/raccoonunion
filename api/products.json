@@ -56,9 +56,9 @@
     },
     {
       "id": 7,
-      "title": "Кертіс",
-      "profession": "services",
-      "class": "programmer",
+      "title": "Куртіс",
+      "profession": "програміст",
+      "class": "service",
       "image": "img/raccoons/Curtis programmer.jpg",
       "description": "Кертіс - талановитий програміст, який пише ефективний код.",
       "price": "5"
@@ -92,7 +92,7 @@
     },
     {
       "id": 11,
-      "title": "вантажники",
+      "title": "Вантажники",
       "profession": "бригада вантажників",
       "class": "worker",
       "image": "img/raccoons/Frouder brigade.jpg",

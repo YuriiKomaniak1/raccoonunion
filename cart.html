@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Обери собі єнота</title>
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/cart.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/global.social-nav.partial.html"
+      ></nav>
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/global.header-nav.partial.html"
+      ></nav>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/index.hero.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/global.callbar.partial.html"
+      ></section>
+    </header>
+    <section class="cart-container">
+      
+        <div class="cart-title">
+          <h2>Кошик</h2>
+        </div>
+        <div class="cart-field">
+        <div class="cart">
+          <div id="cart-items"></div>
+          <p id="cart-total">Загальна сума: <span>0</span>$</p>
+          <button id="clear-cart">Очистити кошик</button>
+        </div>
+        <a class="order__button" href="contacts.html">Оформити замовлення</a>
+      
+      </div>
+    </section>
+
+    <footer>
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/global.footer.partial.html"
+      ></nav>
+    </footer>
+    <script src="js/cart.js"></script>
+  </body>
+</html>

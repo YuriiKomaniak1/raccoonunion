@@ -2,6 +2,7 @@ function init() {
   import("./global-hero.js");
   import("./global-clock.js");
   import("./global.header-burger.js");
+  import("./cart-content.js");
   import("./cart-counter.js");
 }
 

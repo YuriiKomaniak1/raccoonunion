@@ -1,15 +1,25 @@
 <section class="raccoons">
- <div class="raccoons__title">
-  <h2>Вибери свого єнота</h2>
-    </div>
-    <div class="raccoons__list">
-
-
-
-
-    </div>
-
-
-
-
+  <div class="raccoons__title">
+    <h2>Вибери свого єнота</h2>
+  </div>
+  <div class="raccoons__search">
+    <div>
+    <label for="classFilter">Фільтр за класом:</label>
+    <select id="filter-class">
+      <option value="all">Усі єноти</option>
+      <option value="worker">Єноти для бізнесу</option>
+      <option value="household">Єноти для дому</option>
+      <option value="services">Послуги єнотів</option>
+    </select>
+  </div>
+  <div>
+    <label for="sort-price">Сортувати за ціною:</label>
+    <select id="sort-price">
+      <option value="none">Без сортування</option>
+      <option value="asc">За зростанням</option>
+      <option value="desc">За спаданням</option>
+    </select>
+  </div>
+  </div>
+  <div class="raccoons__list"></div>
 </section>
